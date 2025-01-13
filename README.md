@@ -235,7 +235,7 @@ By ensuring that these prerequisites are met, you’ll be well-prepared to succe
 
 
 
-## --------- Implementation steps for Kerberos with LDAP for Centralized Authentication --------
+## --- Implementation steps for Kerberos with LDAP for Centralized Authentication ---
 
 
 <br>
