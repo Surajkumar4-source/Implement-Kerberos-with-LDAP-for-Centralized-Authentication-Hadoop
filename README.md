@@ -1,5 +1,18 @@
 #   Implement Kerberos with LDAP for Centralized Authentication
 
+<br>
+
+### **Why Use Kerberos and LDAP in Hadoop?**
+
+- **Kerberos** provides secure **authentication**, ensuring that only legitimate users can access Hadoop resources.
+- **LDAP** provides a **directory service** that maps users to their permissions, ensuring that access control is centralized and managed efficiently.
+
+Together, **Kerberos** and **LDAP** protect sensitive data in HDFS by ensuring that only the right people have access to the right files at the right time.
+
+
+
+<br>
+
 
 
 
@@ -59,13 +72,6 @@ Let’s say you want to access the file `/user/data/large_data.csv`:
 3. If **Kerberos** confirms your identity and **LDAP** confirms that you have the necessary permissions, you are granted access to the file, and you can proceed with reading the data from the **HDFS DataNode**.
 
 ---
-
-### **Why Use Kerberos and LDAP in Hadoop?**
-
-- **Kerberos** provides secure **authentication**, ensuring that only legitimate users can access Hadoop resources.
-- **LDAP** provides a **directory service** that maps users to their permissions, ensuring that access control is centralized and managed efficiently.
-
-Together, **Kerberos** and **LDAP** protect sensitive data in HDFS by ensuring that only the right people have access to the right files at the right time.
 
 
 
